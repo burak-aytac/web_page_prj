@@ -1,0 +1,153 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(53, 66, 74);
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid 
+    rgb(169, 80, 139);
+    height: 10vh;
+    padding: 0 25px;
+}
+h1{
+    display: inline-block;
+    font-size: 4.5vh;
+    line-height: 45px;
+    color: rgb(169, 80, 139);
+    position: relative;
+    top: 16px;
+    left: 5px;
+}
+h1 span{
+    color: rgb(255, 255, 255);
+}
+header ul{
+    list-style-type: none;
+    float: right;
+    vertical-align: middle;
+    padding: 15px;
+    margin-right: 25px;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 25px;
+}
+#home{
+    color: rgb(169, 80, 139);
+}
+#home:hover{
+    color: rgb(255, 255, 255);
+}
+header ul li a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 2px lightgray;
+}
+#container{
+    background-image: url(/showcase.jpg);
+    height: 370px;
+    text-align: center;
+    
+}
+#main-page{
+    display: block;
+    margin: auto;
+    overflow:hidden;
+    width: 80%;
+}
+#main-page h2{
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    display: block;
+}
+#main-page p{
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    font-size: 17px;
+}
+#subscribe{
+    background-color:rgb(53, 66, 74);
+    padding: 33px;
+}
+#subscribe h3{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    line-height: 34px;
+    font-size: 22px;
+}
+#email-subs{
+    display: inline-block;
+    float: right;
+}
+#sub-button{
+    height: 35px;
+    width: 100px;
+    font-size: 13px;
+    background-color: rgb(169, 80, 139);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+#email{
+    height: 31.1px;
+    width: 250px;
+}
+#course-icons{
+    height: 240px ;
+    margin: 0 50px;
+}
+#course-icons img{
+    height: 100px ;
+    margin: 30px 0;
+}
+#course-icons h3{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+#course-icons p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+#html5{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+#css3{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+#graphic{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+footer{
+    background-color: rgb(255, 250, 240);
+    border-top: 3px solid 
+    rgb(169, 80, 139);
+    text-align: center;
+    
+}
+footer img{
+    height: 30px;
+    margin-bottom: 15px;
+    margin-right: 120px;
+}
+footer p{
+    font-size: 14px;
+    line-height: 22.5px;
+    margin-top: 15px;
+    margin-right: 120px;
+}
